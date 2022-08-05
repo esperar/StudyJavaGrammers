@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d486cde-01c8-4164-bbf1-49da8677d588" name="Changes" comment="" />
+    <list default="true" id="9d486cde-01c8-4164-bbf1-49da8677d588" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Basic/inheritance/Calculator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/inheritance/ConstructorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/inheritance/multipleCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/instance/CalculatorDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/overloading/loadCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/overriding/CalculatorOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/scope/ScopeDemo4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Basic/scope/thisScope.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/helloJAVA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Calculator3Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/instance/Calculator3Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/CalculatorDemo4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Basic/instance/member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,26 +59,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Calculator3Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Calculator3Demo" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.multipleCalculator">
     <configuration name="CalculatorDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.CalculatorDemo4" />
+      <option name="MAIN_CLASS_NAME" value="Basic.instance.CalculatorDemo4" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Basic.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +81,24 @@
       </method>
     </configuration>
     <configuration name="member" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.member" />
+      <option name="MAIN_CLASS_NAME" value="Basic.instance.member" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Basic.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="multipleCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.inheritance.multipleCalculator" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,7 +111,20 @@
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="Basic.scope.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="thisScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Basic.scope.thisScope" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Basic.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,17 +134,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Calculator3Demo" />
-      <item itemvalue="Application.member" />
       <item itemvalue="Application.CalculatorDemo4" />
+      <item itemvalue="Application.member" />
+      <item itemvalue="Application.multipleCalculator" />
       <item itemvalue="Application.test" />
+      <item itemvalue="Application.thisScope" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Calculator3Demo" />
-        <item itemvalue="Application.member" />
-        <item itemvalue="Application.CalculatorDemo4" />
-        <item itemvalue="Application.test" />
+        <item itemvalue="Application.multipleCalculator" />
       </list>
     </recent_temporary>
   </component>

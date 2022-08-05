@@ -1,4 +1,4 @@
-package test;
+package Basic.instance;
 
 class Calculator2{
     static int base = 0;
