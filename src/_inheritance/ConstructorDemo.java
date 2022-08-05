@@ -1,4 +1,4 @@
-package Basic.inheritance;
+package _inheritance;
 
 public class ConstructorDemo {
     public class CounstroctorDemo{}

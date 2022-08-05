@@ -1,4 +1,4 @@
-package Basic.inheritance;
+package _inheritance;
 
 /*
 상속의 장점은 중복을 제거할 수 있다. 부모의 코드를 다시 작성할 필요가 없다.

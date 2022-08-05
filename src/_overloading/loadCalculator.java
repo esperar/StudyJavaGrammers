@@ -1,4 +1,4 @@
-package Basic.overloading;
+package _overloading;
 
 class Calculator{
     int left, right;
@@ -6,6 +6,8 @@ class Calculator{
     /*
     오버로딩 : 메서드의 이름이 같아도 매개변수 개수가 다르면 사용 가능. 이 기능을 사용하는 것
     이름을 여러개 만들 수고가 줄어듬 , 사용자의 입장에서 편리하게 사용가능
+    + 매개변수의 형식이 같고 메소드의 이름이 같으면서 리턴값이 다르면 메소드는 오버로딩 되지 않는다.
+      >> 메소드를 사용하는 단계에서 알려줄 수 있는 정보가 아니라서 사용 후에 확인이 가능하기때문에 불가능
     */
     public void setOprands(int left, int right){
         System.out.println("setOprands(int left, int right)");

@@ -1,4 +1,4 @@
-package Basic.scope;
+package _scope;
 
 class C {
     int v = 10;

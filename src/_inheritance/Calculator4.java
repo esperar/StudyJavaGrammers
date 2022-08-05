@@ -1,4 +1,4 @@
-package Basic.inheritance;
+package _inheritance;
 
 class Calculator {
     int left, right;

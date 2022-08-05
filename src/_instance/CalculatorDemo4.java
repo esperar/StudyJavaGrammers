@@ -1,4 +1,4 @@
-package Basic.instance;
+package _instance;
 class Calculator{
     int left , right;
 

@@ -1,4 +1,4 @@
-package Basic.scope;
+package _scope;
 
 public class ScopeDemo4 {
     static void a(){
