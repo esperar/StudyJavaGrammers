@@ -1,4 +1,4 @@
-package AccessModifier;
+package _accessModifier;
 class A {
     public String x(){
         return "public void x()";

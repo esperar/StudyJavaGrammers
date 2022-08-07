@@ -1,4 +1,4 @@
-package classpath;
+package _classpath;
 
 class Item2{
     public void print(){
