@@ -9,3 +9,4 @@
 - ✅ 클래스패스 환경변수
 - ✅ 접근 제어자
 - ✅ abstract 와 fianl
+- ✅ Interface 규칙
