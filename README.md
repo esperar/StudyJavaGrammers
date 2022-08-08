@@ -11,3 +11,4 @@
 - ✅ abstract 와 fianl
 - ✅ Interface 규칙
 - ✅ 다형성
+- ✅ Exception (예외)
