@@ -10,3 +10,4 @@
 - ✅ 접근 제어자
 - ✅ abstract 와 fianl
 - ✅ Interface 규칙
+- ✅ 다형성
