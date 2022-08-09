@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d486cde-01c8-4164-bbf1-49da8677d588" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/_exception/example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/_exception/CalculatorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_exception/CalculatorDemo.java" afterDir="false" />
     </list>
@@ -46,7 +47,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ThrowExceptionDemo">
+  <component name="RunManager" selected="Application.example">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="test" />
@@ -67,12 +68,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="member" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.instance.member" />
+    <configuration name="example" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_exception.example" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Basic.scope.*" />
+          <option name="PATTERN" value="_exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,14 +122,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.example" />
       <item itemvalue="Application.ThrowExceptionDemo" />
-      <item itemvalue="Application.member" />
       <item itemvalue="Application.multipleCalculator" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.thisScope" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.example" />
         <item itemvalue="Application.ThrowExceptionDemo" />
         <item itemvalue="Application.multipleCalculator" />
       </list>
