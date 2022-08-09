@@ -1,7 +1,7 @@
 package _exception;
 
 class A{
-    private int[] arr = new int[3]
+    private int[] arr = new int[3];
     A(){
         arr[0] = 0;
         arr[1] = 10;
