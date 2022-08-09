@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d486cde-01c8-4164-bbf1-49da8677d588" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/_exception/exceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_exception/exceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_exception/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_exception/ThrowExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_exception/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,23 +48,23 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.multipleCalculator">
-    <configuration name="CalculatorDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.instance.CalculatorDemo4" />
+  <component name="RunManager" selected="Application.ThrowExceptionDemo">
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Main" />
+    <configuration name="ThrowExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_exception.ThrowExceptionDemo" />
       <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_exception.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,7 +123,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.CalculatorDemo4" />
+      <item itemvalue="Application.ThrowExceptionDemo" />
       <item itemvalue="Application.member" />
       <item itemvalue="Application.multipleCalculator" />
       <item itemvalue="Application.test" />
@@ -128,6 +131,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowExceptionDemo" />
         <item itemvalue="Application.multipleCalculator" />
       </list>
     </recent_temporary>
