@@ -15,6 +15,12 @@ class Calculator{
     }
     */
     public void divide(){
+        // right 에 0 이 들어올때 오류 출력
+        if(right == 0){
+            // 메인의 catch 안에있는 인자로 exception의 인자를 리턴한다.
+            throw new ArithmeticException("0 으로 나눌 수 없습니다.");
+        }
+
         try {
             System.out.print("계산결과는 ");
             System.out.print(this.left/this.right);
@@ -59,10 +65,12 @@ public class CalculatorDemo {
     public static void main(String[] args) {
         Calculator c1 = new Calculator();
         c1.setOprands(10,0);
-        c1.divide(); // 계산결과는 오류가 발생했습니다 : /by zero
+        try{
+            c1.divide();
+            // c1.divide()에서 예외게 발생하면 메인의 catch 구문을 찾아 메소드처럼 실행한다.
+        } catch(ArithmeticException e){
+            System.out.println(e.getMessage()); // "0으로 나눌 수 없습니다."
+        }
 
-        Calculator c2 = new Calculator();
-        c2.setOprands(10,5);
-        c2.divide(); // 2
     }
 }
