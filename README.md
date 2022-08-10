@@ -12,3 +12,4 @@
 - ✅ Interface 규칙
 - ✅ 다형성
 - ✅ Exception (예외)
+- ✅ Object 클래스
