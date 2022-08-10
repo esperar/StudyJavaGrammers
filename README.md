@@ -13,3 +13,4 @@
 - ✅ 다형성
 - ✅ Exception (예외)
 - ✅ Object 클래스
+- ✅ 상수와 enum
