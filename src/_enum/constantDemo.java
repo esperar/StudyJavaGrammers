@@ -22,7 +22,20 @@ enum 사용 이유
 - 키워드 enum을 사용하기 때문에 구현의 의도가 열거임을 분명하게 나타낼 수 있다.
  */
 enum Fruit{
-    APPLE , PEACH , BANANA
+    // 각 상수마다 인스턴스화 할때 필요한 값을 보낸다.
+    // 아래의 코드는 자기 자신을 인스턴스화 하는 것이다.
+    // public static final Fruit APPLE = new Fruit("red"); 와 같은 기능을한다.
+    APPLE("red") ,  PEACH("pink") , BANANA("yellow");
+    private String color;
+
+    // enum은 클래스 처럼 생성자를 호출할 수 있다 아래의 코드는 호출하면 색을 지정해주는 생성자다
+    Fruit(String color){
+        this.color = color;
+    }
+    // 변수에 직접 접근하는 것 보단 메서드로 접근하는 것이 안전하다.
+    String getColor(){
+        return this.color;
+    }
 }
 enum Company{
     GOOGLE , APPLE , ORACLE
@@ -35,14 +48,18 @@ public class constantDemo {
         Fruit type = Fruit.APPLE;
         switch (type){
             case APPLE :
-                System.out.println("57 kcal");
+                System.out.println("57 kcal color " + Fruit.APPLE.getColor());
                 break;
             case BANANA:
-                System.out.println("34 kcal");
+                System.out.println("34 kcal color " + Fruit.APPLE.getColor());
                 break;
             case PEACH:
-                System.out.println("93 kcal");
+                System.out.println("93 kcal color " + Fruit.APPLE.getColor());
                 break;
+        }
+        // value() 메서드는 enum 안의 상수들을 배열로 만들어 반환한다.
+        for(Fruit f : Fruit.values()){
+            System.out.println(f+", "+f.getColor());
         }
 
     }
