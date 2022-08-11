@@ -10,7 +10,7 @@ public class referenceDemo1 {
 
     /*
     아래의 데이터 타입들은 참조형이 아니기때문에 b의 값을 바꾸어도 a값이 유지된다.
-    복제형 데이터 타입이다.
+    이러한 원시형 데이터형 변수는 복제형 데이터 타입이다.
      */
     public static void runValue(){
         int a = 1;
