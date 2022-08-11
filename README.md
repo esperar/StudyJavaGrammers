@@ -15,3 +15,4 @@
 - ✅ Object 클래스
 - ✅ 상수와 enum
 - ✅ 참조 (reference)
+- ✅ 제네릭 (Generic)
