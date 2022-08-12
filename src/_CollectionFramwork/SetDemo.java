@@ -6,48 +6,35 @@ import java.util.HashSet;
 import java.util.Iterator;
 
 public class SetDemo {
-    public static void main(String[] args) {
-        // HashSet  ArrayList 의 차이점은 중복 값을 저장하느냐 안하느냐의 차이가 있다.
-        ArrayList<Integer> a1 = new ArrayList<Integer>();
-        a1.add(1);
-        a1.add(2);
-        a1.add(2);
-        a1.add(2);
-        a1.add(3);
-        /*
-         메소드 iterator 는 인터페이스 컬렉션에 정의되어 있다. 따라서 컬렉션을 구현하고 있는 모든 컬렉션즈 프레임워크는 이 메소드를
-         구현하고 있음을 보증한다. 메소드  iterator 의 호출 결과는 인터페이스 이터레이터를 구현한 객체를 리턴한다.
-         인터페이서 이터레이터는 아래의 3개 메소드를 구현하도록 강제하고 있다.
-         - hasNext : 반복할 데이터가 더 있으면 참 없다면 거짓을 반환
-         - next hasNext 가 참이라는 것은 next 가 리턴할 데이터가 존재한다는 의미이다.
-         */
-        Iterator ai = a1.iterator();
-        while(ai.hasNext()){
-            System.out.println(ai.next());
-            /*
-            1
-            2
-            2
-            2
-            3
-             */
-        }
 
-        HashSet<Integer> hs = new HashSet<Integer>();
-        hs.add(1);
-        hs.add(2);
-        hs.add(2);
-        hs.add(2);
-        hs.add(3);
-        // 중복된 데이터가 추가되지 않고 하나만 출력됨을 볼 수 있음
-        Iterator hi = hs.iterator();
-        while (hi.hasNext()){
+    public static void main(String[] args) {
+        HashSet<Integer> A = new HashSet<Integer>();
+        A.add(1);
+        A.add(2);
+        A.add(3);
+
+        HashSet<Integer> B = new HashSet<Integer>();
+        B.add(3);
+        B.add(4);
+        B.add(5);
+
+        HashSet<Integer> C = new HashSet<Integer>();
+        C.add(1);
+        C.add(2);
+
+        // A 안의 값 중에 B 의 값이 모두 포함 되어 있는가 ?
+        System.out.println(A.containsAll(B)); // false
+        //  A 안의 값 중에 C 의 값이 모두 포함 되어 있는가 ?
+        System.out.println(A.containsAll(C)); // true
+
+        // A.addAll(B); : A B 둘의 값을 합침 중복된 값은 하나로 설정됨
+        // A.retainAll(B); : 둘의 교집합 서로 같이 가지고 있는 값으로 설정됨
+        // A.removeAll(B); : 둘의 차집합으로 B 와 중복되지 않는 값으로만 설정됨
+
+        Iterator hi = A.iterator();
+        while(hi.hasNext()){
             System.out.println(hi.next());
-            /*
-            1
-            2
-            3
-             */
         }
     }
+
 }
