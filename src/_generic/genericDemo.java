@@ -8,7 +8,6 @@ package _generic;
 class Person<T>{
     public T info;
 }
-
 public class genericDemo {
     public static void main(String[] args) {
         // 제네릭으로 클래스를 생성하기 위하여 생성자를 사용해주었고 T가 들어갈 자리에 데이터 형을 쓰면
