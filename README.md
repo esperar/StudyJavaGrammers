@@ -8,7 +8,7 @@
 - ✅ 메소드 오버로딩
 - ✅ 클래스패스 환경변수
 - ✅ 접근 제어자
-- ✅ abstract 와 fianl
+- ✅ abstract 와 final
 - ✅ Interface 규칙
 - ✅ 다형성
 - ✅ Exception (예외)
@@ -17,3 +17,4 @@
 - ✅ 참조 (reference)
 - ✅ 제네릭 (Generic)
 - ✅ Collections Framework
+- ✅ java.lang 패키지
