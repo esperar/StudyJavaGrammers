@@ -1,4 +1,4 @@
-package _JavaLang;
+package _JavaLang.StringAuto;
 
 public class AutoClassDemo {
     public static void main(String[] args) {
