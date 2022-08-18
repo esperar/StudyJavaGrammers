@@ -45,7 +45,20 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.constantDemo">
+  <component name="RunManager" selected="Application.CharIOExam1">
+    <configuration name="CharIOExam1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_javaio.CharIOExam1" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_javaio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.Main" />
       <module name="test" />
@@ -105,29 +118,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thisScope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Basic.scope.thisScope" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Basic.scope.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.CharIOExam1" />
       <item itemvalue="Application.ThrowExceptionDemo" />
       <item itemvalue="Application.constantDemo" />
       <item itemvalue="Application.example" />
       <item itemvalue="Application.multipleCalculator" />
-      <item itemvalue="Application.thisScope" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CharIOExam1" />
         <item itemvalue="Application.constantDemo" />
         <item itemvalue="Application.example" />
         <item itemvalue="Application.ThrowExceptionDemo" />
