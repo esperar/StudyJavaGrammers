@@ -1,4 +1,4 @@
-package _java.io;
+package _javaio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -44,6 +44,6 @@ public class ByteIOExam1 {
         //메소드가 끝났을때 시간을 구하기 위함.
         long endTime = System.currentTimeMillis();
         //메소드를 수행하는데 걸린 시간을 구할 수 있음.
-        System.out.println(endTime-startTime);
+        System.out.println(endTime-startTime); // 512개씩 썼을때 1 1개씩 썼을때 4가 출력됨
     }
 }
