@@ -10,7 +10,7 @@
 - ✅ 접근 제어자
 - ✅ abstract 와 final
 - ✅ Interface 규칙
-- ✅ 다형성
+- ✅ 다형성 (polymorphism)
 - ✅ Exception (예외)
 - ✅ Object 클래스
 - ✅ 상수와 enum
@@ -20,4 +20,5 @@
 - ✅ java.lang 패키지
 - ✅ Date 날짜와 시간
 - ✅ 자바 I/O (입력과 출력)
-- ✅ 어노테이션
+- ✅ Annotation (주석)
+- ✅ 쓰레드 (Thread)
