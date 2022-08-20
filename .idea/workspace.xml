@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d486cde-01c8-4164-bbf1-49da8677d588" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/_thread/JoinExam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/Mythread5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/ThreadA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/ThreadB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/musicbox/MusicBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/musicbox/MusicBoxExam1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_thread/musicbox/MusicPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_lambda/lambdaExam1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
